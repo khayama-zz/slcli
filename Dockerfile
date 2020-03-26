@@ -1,5 +1,5 @@
 FROM openwhisk/dockerskeleton
 
-RUN pip install SoftLayer==5.8.1
+RUN pip install SoftLayer==5.8.5
 
 CMD ["/bin/bash", "-c", "cd /actionProxy && python -u actionproxy.py"]
